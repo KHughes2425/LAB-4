@@ -1,9 +1,11 @@
 * {
-    box-sizing:border-box
+    box-sizing:border-box;
+
 }
 
 body{
     background-image: url(images/vino-li-W1py5swbJZY-unsplash.jpg);
+    padding:0;
 }
 
 h1{
@@ -34,11 +36,23 @@ p{
     color:snow;
     text-align: center;
     font-family: 'Creepster', cursive;
+    margin-top:75px;
+}
+
+footer{
+  background-color: black;
+  padding:0;
+}
+
+footer p{
+  background-color: black;
+  padding:15px;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 500px;
+  max-height: 500px;
   position: relative;
   margin: auto;
 }
@@ -79,10 +93,10 @@ p{
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 40px;
+  font-size: 25px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 40px;
+  bottom: 2px;
   width: 100%;
   text-align: center;
   background-color: #01070084;
@@ -105,7 +119,7 @@ p{
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 10px;
   background-color: #ff6f00;
   border-radius: 50%;
   display: inline-block;
