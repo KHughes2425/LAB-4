@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photos Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <title>Photo Gallery</title>
 </head>
 <body>
-    
+
+    <h1>My Photo Gallery</h1>
+    <h3>In spirit of <span>Halloween</span>!</h3>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="images/2.jpg" style="width:100%">
+          <div class="text">Halloween Town</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="images/10.jpg" style="width:100%">
+          <div class="text">Pumpkins in Spider Webs</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="images/1.jpg" style="width:100%">
+          <div class="text">Spooky Halloween City</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="images/8.jpg" style="width:100%">
+            <div class="text">Walkway into the Halloween Town</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="images/9.jpg" style="width:100%">
+            <div class="text">Don't worry. He doesn't bite......much</div>
+          </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <p> All images were AI Generated using <a href="https://www.adobe.com/sensei/generative-ai/firefly.html">Adobe Firefly Beta</a></p>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(1)"></span> 
+
+        </div>
+        
+    <script src="java.js"></script>
 </body>
 </html>
